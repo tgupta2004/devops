@@ -1,3 +1,4 @@
+10 git commands : 
 git init
 git clone
 git add
@@ -9,3 +10,34 @@ git config –global user.email ‘guptatanmay1008@gmail.com’
 git config –global –list
 git remote add origin https://github.com/tgupta2004/DevOps_Exp3.git
 git remote show origin
+
+
+
+
+
+
+
+Initialization : 
+git config –global user.name ‘Tanmay’
+git config –global user.email ‘guptatanmay1008@gmail.com’
+git config –global –list
+git remote add origin <repo link>
+git remote show origin
+git pull --rebase origin main
+git push origin master
+
+
+
+Pull operations : 
+git pull origin master
+Push operations :
+git add <file/folder>
+git commit -m ""
+git push origin master
+
+
+Fetch operations : 
+git fetch origin master
+
+Merge operations : 
+git merge origin/master
