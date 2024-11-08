@@ -1,0 +1,24 @@
+public class Java_Input_Program {
+    public static void main(String[] args) {
+        double num1;
+        double num2;
+
+        // Convert the string arguments to doubles
+        try {
+            num1 = Double.parseDouble(args[0]);
+            num2 = Double.parseDouble(args[1]);
+        } catch (NumberFormatException e) {
+            System.out.println("Please provide valid numbers.");
+            return;
+        }
+
+        double result = num1 + num2;      
+        System.out.printf("The result of Addition of %f and %f is: %f%n", num1, num2, result);
+    }
+}
+
+
+batch command:
+cd C:\Users\Nidhi Gupta\Desktop\Tanmay\Jenkins\q4 - Java program on jenkins to take input
+javac Java_Input_Program.java
+java Java_Input_Program %str1% %str2%
