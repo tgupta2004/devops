@@ -1,0 +1,6 @@
+to download webhooks : 
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+scoop bucket add hookdeck https://github.com/hookdeck/scoop-hookdeck-cli.git
+scoop install hookdeck
+hookdeck listen 8080
