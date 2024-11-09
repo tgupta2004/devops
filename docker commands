@@ -1,15 +1,23 @@
 docker version
 docker login
+docker images help
+docker top <container_id>
 docker run <image_name>	 : Run a container from an image.
 docker pull <image_name>	 : Pull an image from Docker Hub.
 docker ps	 : List all running containers.
 docker ps -a	 : List all containers (including stopped ones).
+docker pause <container_id>
+docker unpause <container_id>
 docker stop <container_id>	 : Stop a running container.
+docker start <container_id>
 docker rm <container_id>	 : Remove a stopped container.
 docker images	 : List all images on the system.
 docker rmi <image_id>	 : Remove an image.
 docker exec -it <container_id> <command>	 : Run a command inside a running container.
-docker build -t <image_name> 	 : Build an image from a Dockerfile in the current directory.
+docker build -t <image_name> .	 : Build an image from a Dockerfile in the current directory.
+docker stats
+docker history
+docker ps => then => docketr inspect <image>
 
 
 
