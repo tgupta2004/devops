@@ -30,6 +30,8 @@ git push origin master
 
 Pull operations : 
 git pull origin master
+
+
 Push operations :
 git add <file/folder>
 git commit -m ""
