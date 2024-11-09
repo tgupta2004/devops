@@ -10,3 +10,14 @@ docker images	 : List all images on the system.
 docker rmi <image_id>	 : Remove an image.
 docker exec -it <container_id> <command>	 : Run a command inside a running container.
 docker build -t <image_name> 	 : Build an image from a Dockerfile in the current directory.
+
+
+
+
+Docker commands to build a web application : 
+dir
+docker build -t tanmaynginx .
+docker images
+docker run -d -p 80:80 tanmaynginx:latest  <= if the docker container was not created
+docker ps
+then paste the ip address in the browser
