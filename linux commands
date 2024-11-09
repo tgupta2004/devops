@@ -8,3 +8,15 @@ cat <file_name>	 : Display the content of a file.
 chmod <permissions> <file_name>	 : Change file permissions.
 ps -aux	 : Show currently running processes.
 top  : Display real-time system resource usage.
+sudo 
+sudo man
+pwd
+history
+df
+du
+free
+uname -a
+info
+date
+head <file_name.extension>
+echo "hello world"
